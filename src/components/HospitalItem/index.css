@@ -1,0 +1,92 @@
+.hospital-list {
+  list-style-type: none;
+  width: 45vw;
+  border: 2px solid #101112;
+  border-radius: 20px;
+  margin: 10px;
+  padding: 20px;
+  display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  .hospital-list {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-right: 20px;
+  }
+}
+.name {
+  color: #686a6e;
+  font-size: 22px;
+  font-family: 'Roboto';
+  font-weight: 900;
+}
+@media screen and (max-width: 768px) {
+  .name {
+    font-size: 16px;
+    text-align: center;
+  }
+}
+.location-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+  .location-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.location {
+  color: #7b42f5;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 800;
+}
+
+.ratting {
+  color: #f0e222;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+.span {
+  color: #f02255;
+}
+
+.phone {
+  color: #47121f;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+@media screen and (max-width: 768px) {
+  .location {
+    margin: 0px;
+    font-size: 16px;
+    text-align: center;
+  }
+  .ratting {
+    margin: 0px;
+    font-size: 16px;
+  }
+  .phone {
+    font-size: 16px;
+  }
+}
+
+.image {
+  height: 100%;
+  width: 300px;
+  border-radius: 60px;
+}
+@media screen and (max-width: 768px) {
+  .image {
+    width: 100%;
+  }
+}
